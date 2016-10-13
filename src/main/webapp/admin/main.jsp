@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>福建省报刊信息管理系统</title>
+<title>信息管理系统</title>
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath() %>/resources/easyui/themes/default/easyui.css">
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath() %>/resources/easyui/themes/icon.css">
 <script type="text/javascript" src="<%=request.getContextPath() %>/resources/easyui/jquery-1.8.0.min.js"></script>
@@ -40,7 +40,7 @@ $(function(){
 <body class="easyui-layout">
 
 <div data-options="region:'north'" style="height:50px;overflow:hidden;">
-  <h1>福建省报刊信息管理系统</h1>
+  <h1>信息管理系统</h1>
   <div id="login_user_info">欢迎你：${currentUser.name}. <a href="<%=request.getContextPath() %>/logout">退出</a></div>
 </div>
 

@@ -12,8 +12,8 @@
 	</settings>
 	
 	<plugins>
-		<plugin interceptor="cn.ffcs.system.interceptor.MybatisPaginationInterceptor">
-		    <property name="dialectClass" value="cn.ffcs.system.common.MySQLDialect"/>
+		<plugin interceptor="cn.basefunc.system.interceptor.MybatisPaginationInterceptor">
+		    <property name="dialectClass" value="cn.basefunc.system.common.MySQLDialect"/>
 		</plugin>
 	</plugins>
 

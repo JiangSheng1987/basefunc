@@ -40,8 +40,8 @@
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource" />
         <property name="configLocation" value="classpath:mybatis-config.xml" />
-        <property name="mapperLocations" value="classpath:cn/ffcs/system/mappers/*Mapper.xml" />
-        <property name="typeAliasesPackage" value="cn.ffcs.system.entity" />
+        <property name="mapperLocations" value="classpath:cn/basefunc/system/mappers/*Mapper.xml" />
+        <property name="typeAliasesPackage" value="cn.basefunc.system.entity" />
     </bean>
 
     <!-- scan for mappers and let them be autowired -->
@@ -49,6 +49,6 @@
         <property name="basePackage" value="${MapperInterfacePackage}" />
     </bean-->
     
-    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer" p:basePackage="cn.ffcs.system.dao" />
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer" p:basePackage="cn.basefunc.system.dao" />
     
 </beans>
